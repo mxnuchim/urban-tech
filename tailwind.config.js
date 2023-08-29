@@ -5,12 +5,10 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  // primary: '#104C91',
-  // secondary: '#1F8AC0',
   theme: {
     extend: {
       colors: {
-        primary: '#000',
+        primary: '#12395D',
         secondary: '#1F8AC0',
         heading: '#233036',
         body: '#667074',

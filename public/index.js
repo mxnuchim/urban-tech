@@ -10,6 +10,12 @@ import icon4 from './images/icon-4.svg';
 import icon5 from './images/icon-5.svg';
 import icon6 from './images/icon-6.svg';
 import illustrationWoman from './images/illustration-woman.svg';
+import mobilePhone from './images/mobilePhone.png';
+import community from './images/community.png';
+import consulting from './images/consulting.png';
+import uxDesign from './images/uxDesign.png';
+import techSkill from './images/programmer.png';
+import webDev from './images/webDev.svg';
 import person1 from './images/person-1-min.jpg';
 import person2 from './images/person-2-min.jpg';
 import person3 from './images/person-3-min.jpg';
@@ -21,6 +27,7 @@ import solution1 from './images/solution-img-1-min.jpg';
 import solution2 from './images/solution-img-2-min.jpg';
 import solution3 from './images/solution-img-3-min.jpg';
 import logo from './images/logo.png';
+import joinUsAnimation from './animations/joinUsAnimation.json';
 
 export const images = {
   hero1,
@@ -38,6 +45,11 @@ export const images = {
   solution1,
   solution2,
   solution3,
+  mobilePhone,
+  community,
+  consulting,
+  uxDesign,
+  techSkill,
 };
 
 export const svgs = {
@@ -49,4 +61,9 @@ export const svgs = {
   icon6,
   illustrationWoman,
   quote,
+  webDev,
+};
+
+export const animations = {
+  joinUsAnimation,
 };
