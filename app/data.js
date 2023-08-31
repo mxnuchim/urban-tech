@@ -13,6 +13,7 @@ const {
 } = images;
 const { illustrationWoman, webDev } = svgs;
 const { joinUsAnimation } = animations;
+const { person1, person2, person3, post1, post2, post3, manuchim } = images;
 
 export const navigationMenu = [
   {
@@ -88,14 +89,14 @@ export const servicesContent = {
   },
   items: [
     {
-      icon: webDev, // Replace with actual icon class or source
+      icon: webDev,
       title: 'Web Development',
 
       description:
         'Our team of seasoned experts transforms your ideas into captivating digital experiences.',
     },
     {
-      icon: mobilePhone, // Replace with actual icon class or source
+      icon: mobilePhone,
       title: 'Mobile App Development',
       description:
         'Building dynamic and user-friendly mobile applications that meet modern demands.',
@@ -107,23 +108,185 @@ export const servicesContent = {
         'Immerse your users in an exceptional digital journey with our UI/UX design expertise. ',
     },
     {
-      icon: techSkill, // Replace with actual icon class or source
+      icon: techSkill,
       title: 'Developer X',
       description:
         'The Dev X program is geared towards arming you and and your team with job critical skills and individuals through intense job-focused sessions.',
     },
     {
-      icon: consulting, // Replace with actual icon class or source
+      icon: consulting,
       title: 'Consultation',
       description:
         'Providing expert guidance and advice to steer your digital strategies in the right direction.',
     },
 
     {
-      icon: community, // Replace with actual icon class or source
+      icon: community,
       title: 'Community Management',
       description:
         'Nurturing and growing online communities to foster engagement and collaboration.',
     },
   ],
+};
+
+export const devXContent = {
+  text: {
+    title: 'The Developer-X Program',
+    subTitle: 'Dev-X',
+    description: `From safeguarding your home with state-of-the-art alarm systems to offering reliable insurance options, we ensure that your family is protected in every aspect of life. With our Family Security Plan, you can rest easy knowing that you've taken the necessary steps to secure a brighter future for your family. Trust us to be your partner in safeguarding what matters most - your family's well-being.`,
+    features: [
+      { title: 'Cybersecurity solutions' },
+      { title: 'Cybersecurity solutions' },
+      { title: 'Cybersecurity solutions' },
+      { title: 'Cybersecurity solutions' },
+      { title: 'Cybersecurity solutions' },
+      { title: 'Cybersecurity solutions' },
+    ],
+    cta: {
+      btn1: {
+        href: '#_',
+        label: 'Get started',
+      },
+      btn2: {
+        href: '#_',
+        label: 'How it works?',
+      },
+    },
+  },
+  images: {
+    img1: hero1,
+    img2: hero2,
+    img3: hero3,
+    img4: hero4,
+    img5: hero5,
+  },
+  experience: {
+    years: '25+',
+    label: 'years of experience',
+  },
+};
+
+export const testimonialContent = {
+  heading: {
+    subTitle: 'Customers say...',
+    title: 'Hear what our customers say',
+    description:
+      'From heartwarming testimonials to glowing reviews, these voices reflect the trust and confidence our customers place in us. Let their words speak volumes about the extraordinary experiences that await you with',
+    cta: {
+      cta_href: '#_',
+      cta_label: 'Get Started',
+    },
+  },
+
+  testimonials: [
+    {
+      img: person1,
+      name: 'Jane Cooper',
+      position: 'Cutsomer - Dallas, TX',
+      testimony:
+        'With Family Home Security, I feel at ease knowing my family and home are protected 24/7. The system is user-friendly, and their customer support is fantastic!',
+    },
+    {
+      img: person2,
+      name: 'Alisa Richardson',
+      position: 'Cutsomer - Miami, FL',
+      testimony:
+        'With Family Home Security, I feel at ease knowing my family and home are protected 24/7. The system is user-friendly, and their customer support is fantastic!',
+    },
+    {
+      img: person3,
+      name: 'Davon McKenny',
+      position: 'Cutsomer - San Francisco, CA',
+      testimony:
+        'With Family Home Security, I feel at ease knowing my family and home are protected 24/7. The system is user-friendly, and their customer support is fantastic!',
+    },
+  ],
+};
+
+export const blogContent = {
+  heading: {
+    subTitle: 'Blog',
+    title: 'Our Latest Articles',
+    description:
+      'We are dedicated to staying at the forefront of our industry and keeping our valued community informed about the latest trends, insights, and innovations.',
+  },
+  recentBlog: [
+    {
+      permalink: '#_',
+      featuredImg: post1,
+      title: '10 Essential Tips for Protecting Your Home from Burglaries',
+      excerpt:
+        'Learn the best practices and simple steps to safeguard your home and loved ones from potential break-ins and theft.',
+      author: {
+        img: manuchim,
+        name: 'Manuchimso Oliver',
+        position: 'Editor, CTO, Co-Founder',
+      },
+    },
+    {
+      permalink: '#_',
+      featuredImg: post2,
+      title: '10 Essential Tips for Protecting Your Home from Burglaries',
+      excerpt:
+        'Learn the best practices and simple steps to safeguard your home and loved ones from potential break-ins and theft.',
+      author: {
+        img: manuchim,
+        name: 'Manuchimso Oliver',
+        position: 'Editor, CTO, Co-Founder',
+      },
+    },
+    {
+      permalink: '#_',
+      featuredImg: post3,
+      title: '10 Essential Tips for Protecting Your Home from Burglaries',
+      excerpt:
+        'Learn the best practices and simple steps to safeguard your home and loved ones from potential break-ins and theft.',
+      author: {
+        img: manuchim,
+        name: 'Manuchimso Oliver',
+        position: 'Editor, CTO, Co-Founder',
+      },
+    },
+    {
+      permalink: '#_',
+      featuredImg: post3,
+      title: '10 Essential Tips for Protecting Your Home from Burglaries',
+      excerpt:
+        'Learn the best practices and simple steps to safeguard your home and loved ones from potential break-ins and theft.',
+      author: {
+        img: manuchim,
+        name: 'Manuchimso Oliver',
+        position: 'Editor, CTO, Co-Founder',
+      },
+    },
+    {
+      permalink: '#_',
+      featuredImg: post3,
+      title: '10 Essential Tips for Protecting Your Home from Burglaries',
+      excerpt:
+        'Learn the best practices and simple steps to safeguard your home and loved ones from potential break-ins and theft.',
+      author: {
+        img: manuchim,
+        name: 'Manuchimso Oliver',
+        position: 'Editor, CTO, Co-Founder',
+      },
+    },
+    {
+      permalink: '#_',
+      featuredImg: post3,
+      title: '10 Essential Tips for Protecting Your Home from Burglaries',
+      excerpt:
+        'Learn the best practices and simple steps to safeguard your home and loved ones from potential break-ins and theft.',
+      author: {
+        img: manuchim,
+        name: 'Manuchimso Oliver',
+        position: 'Editor, CTO, Co-Founder',
+      },
+    },
+  ],
+  cta: {
+    href: '#_',
+    label: 'To view all articles',
+    labelSuffix: 'click here',
+  },
 };

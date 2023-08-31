@@ -1,8 +1,10 @@
 import Image from 'next/image';
+import Blog from './components/Blog';
 import Hero from './components/Hero';
 import Services from './components/Services';
-import Solutions from './components/Solutions';
 import Stats from './components/Stats';
+import Testimonial from './components/Testimonial';
+import DeveloperX from './components/DeveloperX';
 
 export default function Home() {
   return (
@@ -10,7 +12,9 @@ export default function Home() {
       <Hero />
       <Stats />
       <Services />
-      <Solutions />
+      <DeveloperX />
+      <Testimonial />
+      <Blog />
     </>
   );
 }

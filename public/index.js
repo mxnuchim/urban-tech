@@ -27,6 +27,7 @@ import solution1 from './images/solution-img-1-min.jpg';
 import solution2 from './images/solution-img-2-min.jpg';
 import solution3 from './images/solution-img-3-min.jpg';
 import logo from './images/logo.png';
+import manuchim from './images/manuchim.jpeg';
 import joinUsAnimation from './animations/joinUsAnimation.json';
 
 export const images = {
@@ -50,6 +51,7 @@ export const images = {
   consulting,
   uxDesign,
   techSkill,
+  manuchim,
 };
 
 export const svgs = {
