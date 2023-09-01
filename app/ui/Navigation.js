@@ -11,31 +11,8 @@ import Button from '../components/shared/Button';
 
 const Navigation = () => {
   const [navOpen, setNavOpen] = useState(false);
-  const [dimensions, setDimensions] = useState({
-    height: window.innerHeight,
-    width: window.innerWidth,
-  });
 
   const { logo } = images;
-
-  useEffect(() => {
-    function handleResize() {
-      if (typeof window !== 'undefined') {
-        setDimensions({
-          height: window.innerHeight,
-          width: window.innerWidth,
-        });
-
-        if (dimensions.width > 768 && navOpen) {
-          setNavOpen(false);
-        }
-        window.addEventListener('resize', handleResize);
-      }
-    }
-    return (_) => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
 
   const mobileMenuHandler = () => {
     setNavOpen(!navOpen);
