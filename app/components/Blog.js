@@ -114,7 +114,7 @@ const Blog = () => {
 before:right-full before:w-screen before:absolute before:-top-5 before:-bottom-5 before:bg-light"
         >
           {blogContent.recentBlog.map((blog, index) => (
-            <SwiperSlide className="overflow-visible h-full" key={blog.title}>
+            <SwiperSlide className="overflow-visible h-full" key={index}>
               <div className="p-5 rounded-lg bg-white relative mt-10">
                 <Link
                   href={blog.permalink}

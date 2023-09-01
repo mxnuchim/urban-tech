@@ -48,7 +48,7 @@ const Navigation = () => {
             {/** Logo */}
             <div>
               <Link href={'/'}>
-                <Image src={logo} width={157} height={30} />
+                <Image src={logo} width={157} height={30} alt="" />
               </Link>
             </div>
 

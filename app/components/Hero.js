@@ -1,10 +1,21 @@
+'use client';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { heroContent } from '../data';
 import Button from './shared/Button';
 
 const Hero = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 700,
+      easing: 'slide',
+      once: true,
+    });
+  }, []);
+
   return (
     <section className="py-20">
       <div className="container px-4 mx-auto">
@@ -14,24 +25,37 @@ const Hero = () => {
               <span
                 className="inline-block py-0.5 pl-3 text-heading font-semibold relative mb-7 before:content-[''] before:absolute before:w-2/3 before:bg-yellowLight
           before:left-0 before:top-0 before:bottom-0 before:z-[-1]"
+                data-aos="fade-up"
               >
                 {heroContent.text.subheading}
               </span>
             )}
 
             {heroContent.text.heading && (
-              <h1 className="text-4xl lg:text-5xl font-bold text-heading mb-7">
+              <h1
+                className="text-4xl lg:text-5xl font-bold text-heading mb-7"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
                 {heroContent.text.heading}
               </h1>
             )}
 
             {heroContent.text.description && (
-              <p className="leading-relaxed text-body mb-10">
+              <p
+                className="leading-relaxed text-body mb-10"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
                 {heroContent.text.description}
               </p>
             )}
 
-            <div className="flex space-x-3">
+            <div
+              className="flex space-x-3"
+              data-aos="fade-in"
+              data-aos-delay="300"
+            >
               <Link
                 href={'#'}
                 className="py-2.5 px-5 bg-primary text-white rounded-lg duration-300 transition-all ease-in-out hover:bg-gray-900 hover:shadow-lg inline-block relative top-0 hover:-top-1"
@@ -56,6 +80,7 @@ const Hero = () => {
                     height={406}
                     alt=""
                     className="object-cover h-full w-full rounded-2xl"
+                    data-aos="fade-in"
                   />
                 )}
               </div>
@@ -69,6 +94,8 @@ const Hero = () => {
                         height={437}
                         alt=""
                         className="object-cover h-full w-full rounded-2xl"
+                        data-aos="fade-in"
+                        data-aos-delay="100"
                       />
                     </div>
                   )}
@@ -82,6 +109,8 @@ const Hero = () => {
                       height={392}
                       alt=""
                       className="object-cover h-full w-full rounded-2xl"
+                      data-aos="fade-in"
+                      data-aos-delay="200"
                     />
                   </div>
                 )}
@@ -99,6 +128,8 @@ const Hero = () => {
                         height={394}
                         alt=""
                         className="object-cover h-full w-full rounded-2xl"
+                        data-aos="fade-in"
+                        data-aos-delay="300"
                       />
                     </div>
                   )}
@@ -113,6 +144,8 @@ const Hero = () => {
                       height={495}
                       alt=""
                       className="object-cover h-full w-full rounded-2xl"
+                      data-aos="fade-in"
+                      data-aos-delay="400"
                     />
                   </div>
                 )}

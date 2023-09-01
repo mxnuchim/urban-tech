@@ -10,6 +10,7 @@ const {
   consulting,
   uxDesign,
   techSkill,
+  logo,
 } = images;
 const { illustrationWoman, webDev } = svgs;
 const { joinUsAnimation } = animations;
@@ -288,5 +289,52 @@ export const blogContent = {
     href: '#_',
     label: 'To view all articles',
     labelSuffix: 'click here',
+  },
+};
+
+export const footerContent = {
+  about: {
+    logo: logo,
+    description:
+      'From heartwarming testimonials to glowing reviews, these voices reflect the trust and confidence our customers place in us. Let their words speak volumes about the extraordinary experiences that await you with',
+    cta: {
+      href: '#_',
+      label: 'Learn more',
+    },
+  },
+  footerLinks: [
+    {
+      heading: 'Company',
+      links: [
+        { href: '#_', label: 'Home' },
+        { href: '#_', label: 'Our mission' },
+        { href: '#_', label: 'Developer-X' },
+        { href: '#_', label: 'About' },
+        { href: '#_', label: 'Careers' },
+        { href: '#_', label: 'Contact' },
+      ],
+    },
+    {
+      heading: 'Resources',
+      links: [
+        { href: '#_', label: 'Blog' },
+        { href: '#_', label: 'Support' },
+        { href: '#_', label: 'Privacy Policy' },
+      ],
+    },
+  ],
+  contact: {
+    heading: 'Contact',
+    description:
+      'Please feel free to reach out to us with any inquiries, questions or assistance you may need.',
+    address: {
+      street: '23 Main Street, Abuja, FCT, Nigeria',
+      phone: '(+234) 708-160-1461',
+      email: 'hello@urbantech.com',
+    },
+  },
+  copyright: {
+    labelOne: 'Copyright 2023. Built with',
+    labelTwo: 'by M. All rights reserved',
   },
 };

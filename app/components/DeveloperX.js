@@ -97,7 +97,7 @@ const DeveloperX = () => {
               {devXContent.text.features.map((feature, index) => (
                 <li
                   className="flex flex-grow items-center space-x-5"
-                  key={feature.title}
+                  key={index}
                 >
                   <span className="w-7 h-7 rounded-full bg-primary flex items-center justify-center">
                     <BiCheck className="text-white text-xl" />
