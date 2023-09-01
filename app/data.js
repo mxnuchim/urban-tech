@@ -153,14 +153,14 @@ export const devXContent = {
   text: {
     title: 'The Developer-X Program',
     subTitle: 'Coming soon',
-    description: `From safeguarding your home with state-of-the-art alarm systems to offering reliable insurance options, we ensure that your family is protected in every aspect of life. With our Family Security Plan, you can rest easy knowing that you've taken the necessary steps to secure a brighter future for your family. Trust us to be your partner in safeguarding what matters most - your family's well-being.`,
+    description: `Dive headfirst into the world of tech and emerge job-ready with the Dev-X program - a turbocharged, job focused boot camp designed to equip you with the skills and knowledge to excel in today's fast-paced tech industry without the unnecessary clutter and delays of traditional boot camps. Learn from industry experts and seasoned senior developers and get job-ready in a fraction of the time.`,
     features: [
-      { title: 'Cybersecurity solutions' },
-      { title: 'Cybersecurity solutions' },
-      { title: 'Cybersecurity solutions' },
-      { title: 'Cybersecurity solutions' },
-      { title: 'Cybersecurity solutions' },
-      { title: 'Cybersecurity solutions' },
+      { title: 'Full Stack Development' },
+      { title: 'Mobile Development' },
+      { title: 'UI/UX Design' },
+      { title: 'DevOps Engineering' },
+      { title: 'Data Analytics' },
+      { title: 'Cloud Engineering' },
     ],
     cta: {
       btn1: {

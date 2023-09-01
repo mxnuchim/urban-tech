@@ -107,7 +107,7 @@ const DeveloperX = () => {
               ))}
             </ul>
 
-            <div className="flex space-x-3">
+            {/* <div className="flex space-x-3">
               <Link
                 href={devXContent.text.cta.btn1.href}
                 className="py-2.5 px-5 bg-primary text-white rounded-lg duration-300 transition-all ease-in-out hover:bg-gray-900 hover:shadow-lg inline-block relative top-0 hover:-top-1"
@@ -120,7 +120,7 @@ const DeveloperX = () => {
               >
                 {devXContent.text.cta.btn2.label}
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
