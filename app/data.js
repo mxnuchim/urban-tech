@@ -1,20 +1,38 @@
 import { animations, images, svgs } from '@/public';
+const {} = images;
+const { webDev } = svgs;
+const { joinUsAnimation } = animations;
 const {
   hero1,
+  hero11,
   hero2,
   hero3,
   hero4,
   hero5,
+  hero10,
+  hero7,
+  hero6,
+  hero8,
+  hero9,
   mobilePhone,
   community,
   consulting,
   uxDesign,
   techSkill,
   logo,
+  person1,
+  person2,
+  person3,
+  manuchim,
+  blog1,
+  blog3,
+  blog4,
+  blog9,
+  devX3,
+  devX4,
+  devX5,
+  devX6,
 } = images;
-const { illustrationWoman, webDev } = svgs;
-const { joinUsAnimation } = animations;
-const { person1, person2, person3, post1, post2, post3, manuchim } = images;
 
 export const navigationMenu = [
   {
@@ -45,12 +63,13 @@ export const heroContent = {
     heading: `Building Tomorrow's Solutions Today.`,
     description: `At Urban Tech, we specialize in weaving together the threads of creativity and technology to craft solutions that meet your business needs. We're not just about code – we're about connecting with your audience through user-friendly designs and intuitive interfaces.`,
   },
+  //devX3 -> img1
   images: {
-    img1: hero1,
-    img2: hero2,
+    img1: devX3,
+    img2: hero8,
     img3: hero3,
-    img4: hero4,
-    img5: hero5,
+    img4: hero10,
+    img5: hero9,
   },
 };
 
@@ -133,7 +152,7 @@ export const servicesContent = {
 export const devXContent = {
   text: {
     title: 'The Developer-X Program',
-    subTitle: 'Dev-X',
+    subTitle: 'Coming soon',
     description: `From safeguarding your home with state-of-the-art alarm systems to offering reliable insurance options, we ensure that your family is protected in every aspect of life. With our Family Security Plan, you can rest easy knowing that you've taken the necessary steps to secure a brighter future for your family. Trust us to be your partner in safeguarding what matters most - your family's well-being.`,
     features: [
       { title: 'Cybersecurity solutions' },
@@ -154,12 +173,11 @@ export const devXContent = {
       },
     },
   },
+
   images: {
-    img1: hero1,
-    img2: hero2,
-    img3: hero3,
-    img4: hero4,
-    img5: hero5,
+    img1: devX5,
+    img2: devX6,
+    img3: devX4,
   },
   experience: {
     years: '25+',
@@ -214,10 +232,23 @@ export const blogContent = {
   recentBlog: [
     {
       permalink: '#_',
-      featuredImg: post1,
-      title: '10 Essential Tips for Protecting Your Home from Burglaries',
+      featuredImg: blog1,
+      title:
+        'A Day in the Life of a Developer: Balancing Work and Tech Lifestyle',
       excerpt:
-        'Learn the best practices and simple steps to safeguard your home and loved ones from potential break-ins and theft.',
+        'Follow a developers daily routine, from coding challenges to staying updated with the latest tech trends, and discover tips for maintaining a healthy work-life balance.',
+      author: {
+        img: manuchim,
+        name: 'Manuchimso Oliver',
+        position: 'CTO, Co-Founder',
+      },
+    },
+    {
+      permalink: '#_',
+      featuredImg: blog3,
+      title: 'SaaS vs. Traditional Software: Pros and Cons for Businesses',
+      excerpt:
+        'Explore the advantages and disadvantages of Software as a Service (SaaS) compared to traditional software installations, helping businesses make informed decisions.',
       author: {
         img: manuchim,
         name: 'Manuchimso Oliver',
@@ -226,10 +257,10 @@ export const blogContent = {
     },
     {
       permalink: '#_',
-      featuredImg: post2,
-      title: '10 Essential Tips for Protecting Your Home from Burglaries',
+      featuredImg: blog4,
+      title: 'Productivity Hacks for Developers',
       excerpt:
-        'Learn the best practices and simple steps to safeguard your home and loved ones from potential break-ins and theft.',
+        'Check out this list of productivity tools and techniques that can help developers streamline their workflow and boost their efficiency.',
       author: {
         img: manuchim,
         name: 'Manuchimso Oliver',
@@ -238,46 +269,23 @@ export const blogContent = {
     },
     {
       permalink: '#_',
-      featuredImg: post3,
-      title: '10 Essential Tips for Protecting Your Home from Burglaries',
+      featuredImg: blog9,
+      title: 'Tech Gadgets and Accessories for the Ultimate Workstation Setup',
       excerpt:
-        'Learn the best practices and simple steps to safeguard your home and loved ones from potential break-ins and theft.',
+        'Explore the must-have gadgets and accessories to create an ergonomic and efficient workstation. From monitors to ergonomic chairs, optimize your workspace for maximum productivity and comfort.',
       author: {
         img: manuchim,
         name: 'Manuchimso Oliver',
         position: 'Editor, CTO, Co-Founder',
       },
     },
+
     {
       permalink: '#_',
-      featuredImg: post3,
-      title: '10 Essential Tips for Protecting Your Home from Burglaries',
+      featuredImg: hero7,
+      title: 'Women in Tech: Breaking Barriers and Shaping the Future',
       excerpt:
-        'Learn the best practices and simple steps to safeguard your home and loved ones from potential break-ins and theft.',
-      author: {
-        img: manuchim,
-        name: 'Manuchimso Oliver',
-        position: 'Editor, CTO, Co-Founder',
-      },
-    },
-    {
-      permalink: '#_',
-      featuredImg: post3,
-      title: '10 Essential Tips for Protecting Your Home from Burglaries',
-      excerpt:
-        'Learn the best practices and simple steps to safeguard your home and loved ones from potential break-ins and theft.',
-      author: {
-        img: manuchim,
-        name: 'Manuchimso Oliver',
-        position: 'Editor, CTO, Co-Founder',
-      },
-    },
-    {
-      permalink: '#_',
-      featuredImg: post3,
-      title: '10 Essential Tips for Protecting Your Home from Burglaries',
-      excerpt:
-        'Learn the best practices and simple steps to safeguard your home and loved ones from potential break-ins and theft.',
+        'Celebrate the achievements and contributions of women in the tech industry. Highlight inspiring stories of female tech leaders, developers, and innovators who are paving the way for diversity and inclusion.',
       author: {
         img: manuchim,
         name: 'Manuchimso Oliver',
