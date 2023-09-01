@@ -50,6 +50,7 @@ const Testimonial = () => {
                       className={`bg-white p-7 rounded-lg w-full ${
                         index === 1 ? '' : 'mb-6'
                       }`}
+                      key={index}
                     >
                       <div className="flex space-x-4 items-center mb-4">
                         <div className="relative">
@@ -82,8 +83,10 @@ const Testimonial = () => {
                           )}
                         </div>
                       </div>
-                      <div className="">
-                        <blockquote>"{testimonial.testimony}"</blockquote>
+                      <div>
+                        <blockquote>
+                          &ldquo;{testimonial.testimony}&ldquo;
+                        </blockquote>
                       </div>
                     </div>
                   );
@@ -125,9 +128,10 @@ const Testimonial = () => {
                         )}
                       </div>
                     </div>
-                    <div className="">
+                    <div>
                       <blockquote>
-                        "{testimonialContent.testimonials[2].testimony}"
+                        &ldquo;{testimonialContent.testimonials[2].testimony}
+                        &ldquo;
                       </blockquote>
                     </div>
                   </div>
