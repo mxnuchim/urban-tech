@@ -19,17 +19,18 @@ const Navigation = () => {
   const { logo } = images;
 
   useEffect(() => {
-    // Resize the window when the size changes
     function handleResize() {
-      setDimensions({
-        height: window.innerHeight,
-        width: window.innerWidth,
-      });
+      if (typeof window !== 'undefined') {
+        setDimensions({
+          height: window.innerHeight,
+          width: window.innerWidth,
+        });
 
-      if (dimensions.width > 768 && navOpen) {
-        setNavOpen(false);
+        if (dimensions.width > 768 && navOpen) {
+          setNavOpen(false);
+        }
+        window.addEventListener('resize', handleResize);
       }
-      window.addEventListener('resize', handleResize);
     }
     return (_) => {
       window.removeEventListener('resize', handleResize);
