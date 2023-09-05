@@ -40,19 +40,23 @@ export const navigationMenu = [
     label: 'Home',
   },
   {
-    href: '#',
-    label: 'How we work',
+    href: '#our-work',
+    label: 'Our work',
   },
   {
-    href: '#',
-    label: 'Our mission',
+    href: '#dev-x',
+    label: 'Dev-X',
   },
   {
-    href: '#',
-    label: 'About',
+    href: '#reviews',
+    label: 'Reviews',
   },
   {
-    href: '#',
+    href: '#articles',
+    label: 'Articles',
+  },
+  {
+    href: '#contact',
     label: 'Contact',
   },
 ];
@@ -187,10 +191,10 @@ export const devXContent = {
 
 export const testimonialContent = {
   heading: {
-    subTitle: 'Customers say...',
+    subTitle: 'Customer stories',
     title: 'Hear what our customers say',
     description:
-      'From heartwarming testimonials to glowing reviews, these voices reflect the trust and confidence our customers place in us. Let their words speak volumes about the extraordinary experiences that await you with',
+      'From heartwarming testimonials to glowing reviews, these voices reflect the trust and confidence our customers place in us.',
     cta: {
       cta_href: '#_',
       cta_label: 'Get Started',
@@ -200,24 +204,21 @@ export const testimonialContent = {
   testimonials: [
     {
       img: person1,
-      name: 'Jane Cooper',
-      position: 'Cutsomer - Dallas, TX',
-      testimony:
-        'With Family Home Security, I feel at ease knowing my family and home are protected 24/7. The system is user-friendly, and their customer support is fantastic!',
+      name: 'Emeka U.',
+      position: 'Cutsomer - Abuja, FCT, Nigeria.',
+      testimony: `Working with your software development team across multiple products have been a game-changer for us. Your commitment to clear communication and attention to detail is top notch. Every project we've collaborated on has been completed on time and to a high quality. We appreciate your team's dedication and can't wait to work with you again!`,
     },
     {
       img: person2,
-      name: 'Alisa Richardson',
-      position: 'Cutsomer - Miami, FL',
-      testimony:
-        'With Family Home Security, I feel at ease knowing my family and home are protected 24/7. The system is user-friendly, and their customer support is fantastic!',
+      name: 'D. Müller.',
+      position: 'Cutsomer - Munich, Germany.',
+      testimony: `We've been consistently impressed with the completeness and quality of the software solutions from Urban Tech. You've met and exceeded our expectations every step of the way. Your developers' ability to adapt to changing project requirements and maintain the highest level of quality is commendable. We're excited to continue growing with your support.`,
     },
     {
       img: person3,
-      name: 'Davon McKenny',
-      position: 'Cutsomer - San Francisco, CA',
-      testimony:
-        'With Family Home Security, I feel at ease knowing my family and home are protected 24/7. The system is user-friendly, and their customer support is fantastic!',
+      name: 'Davon M.',
+      position: 'Cutsomer - Manchester, UK',
+      testimony: `We've found a true partner in your company. Your team's responsiveness, technical expertise, and ability to deliver complete, high-quality projects are unmatched. You've played a crucial role in our company's growth and success. We look forward to many more successful collaborations.`,
     },
   ],
 };
@@ -303,10 +304,9 @@ export const blogContent = {
 export const footerContent = {
   about: {
     logo: logo,
-    description:
-      'From heartwarming testimonials to glowing reviews, these voices reflect the trust and confidence our customers place in us. Let their words speak volumes about the extraordinary experiences that await you with',
+    description: `At Urban Tech, we prioritize a client-centric work process that puts your product first. We begin with a thorough understanding of your vision and objectives. Our dedicated CTO, as well as designers and developers serve as your main point of contact, ensuring effective communication, seamless collaboration and that your project receives the attention and precision it deserves. Our focus on building long-term partnerships means we're with you every step of the way in achieving your digital goals.`,
     cta: {
-      href: '#_',
+      href: '#contact',
       label: 'Learn more',
     },
   },
@@ -315,28 +315,24 @@ export const footerContent = {
       heading: 'Company',
       links: [
         { href: '#_', label: 'Home' },
-        { href: '#_', label: 'Our mission' },
-        { href: '#_', label: 'Developer-X' },
-        { href: '#_', label: 'About' },
-        { href: '#_', label: 'Careers' },
-        { href: '#_', label: 'Contact' },
+        { href: '#our-work', label: 'Our work' },
+        { href: '#dev-x', label: 'Developer-X' },
+        { href: '#reviews', label: 'Reviews' },
       ],
     },
     {
       heading: 'Resources',
       links: [
-        { href: '#_', label: 'Blog' },
-        { href: '#_', label: 'Support' },
-        { href: '#_', label: 'Privacy Policy' },
+        { href: '#articles', label: 'Articles' },
+        { href: '#contact', label: 'Support' },
       ],
     },
   ],
   contact: {
-    heading: 'Contact',
-    description:
-      'Please feel free to reach out to us with any inquiries, questions or assistance you may need.',
+    heading: 'Get in touch with us',
+    description: `Ready to discuss your next project with us? Contacting us is simple, just send us a mail below. We provide direct access to dedicated senior designers and developers who will promptly assist you in kick-starting your project and ensuring a smooth collaboration from the get-go`,
     address: {
-      street: '23 Main Street, Abuja, FCT, Nigeria',
+      street: 'Abuja, FCT, Nigeria.',
       phone: '(+234) 708-160-1461',
       email: 'hello@urbantech.com',
     },

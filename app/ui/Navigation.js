@@ -43,7 +43,7 @@ const Navigation = () => {
 
             {/** CTA */}
             <div className="">
-              <Button href={'/'} btnText="Get started" />
+              <Button href={'/#contact'} btnText="Get started" />
 
               <button className="block lg:hidden" onClick={mobileMenuHandler}>
                 <HiOutlineMenuAlt3 className="text-3xl" />

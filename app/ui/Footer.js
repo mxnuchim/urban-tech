@@ -8,7 +8,7 @@ import { footerContent } from '../data';
 
 const Footer = () => {
   return (
-    <footer role="contentinfo" className="py-20 bg-white">
+    <footer role="contentinfo" className="py-20 bg-white" id="contact">
       <div className="container px-4 mx-auto">
         <div className="block lg:flex gap-20 mb-10 pb-10">
           <div className="w-full lg:w-4/12 mb-10 lg:mb-0">

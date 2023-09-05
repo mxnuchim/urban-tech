@@ -5,7 +5,7 @@ import { testimonialContent } from '../data';
 
 const Testimonial = () => {
   return (
-    <section className="py-20 bg-light">
+    <section className="py-20 bg-light" id="reviews">
       <div className="container px-4 mx-auto">
         <div className="lg:flex justify-between items-center">
           <div className="lg:w-4/12 lg:pr-24 mb-10 lg:mb-0">
@@ -54,13 +54,13 @@ const Testimonial = () => {
                     >
                       <div className="flex space-x-4 items-center mb-4">
                         <div className="relative">
-                          <Image
+                          {/* <Image
                             src={testimonial.img}
                             width={579}
                             height={720}
                             className="object-cover h-14 w-14 rounded-full"
                             alt=""
-                          />
+                          /> */}
                           <span className="absolute bottom-0 -right-2 w-6 h-6 bg-ptimary rounded-full flex items-center justify-center">
                             <Image
                               src={'/images/quote.svg'}
@@ -99,13 +99,13 @@ const Testimonial = () => {
                   <div className="bg-white p-7 rounded-lg w-full mb-6">
                     <div className="flex space-x-4 items-center mb-4">
                       <div className="relative">
-                        <Image
+                        {/* <Image
                           src={testimonialContent.testimonials[2].img}
                           width={579}
                           height={720}
                           className="object-cover h-14 w-14 rounded-full"
                           alt=""
-                        />
+                        /> */}
                         <span className="absolute bottom-0 -right-2 w-6 h-6 bg-primary rounded-full flex items-center justify-center">
                           <Image
                             src={'/images/quote.svg'}

@@ -6,7 +6,7 @@ import { devXContent } from '../data';
 
 const DeveloperX = () => {
   return (
-    <section className="py-32 bg-light overflow-x-hidden">
+    <section className="py-32 bg-light overflow-x-hidden" id="dev-x">
       <div className="container px-4 mx-auto">
         <div className="lg:flex space-x-2 justify-between">
           <div className="lg:w-6/12 relative mb-10 lg:mb-0 z-10 before:-[''] before:absolute before:w-screen before:right-1/2 before:rounded-tr-[200px] before:z-[-1] before:rounded-br-3xl before:py-28 before:-top-20 before:bg-white before:-bottom-20">
