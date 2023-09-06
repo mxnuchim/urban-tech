@@ -196,7 +196,7 @@ export const testimonialContent = {
     description:
       'From heartwarming testimonials to glowing reviews, these voices reflect the trust and confidence our customers place in us.',
     cta: {
-      cta_href: '#_',
+      cta_href: '#contact',
       cta_label: 'Get Started',
     },
   },
@@ -301,7 +301,7 @@ export const blogContent = {
     },
   ],
   cta: {
-    href: '#_',
+    href: 'https://medium.com/@manuchimoliver779',
     label: 'To view all articles',
     labelSuffix: 'click here',
   },
@@ -340,7 +340,7 @@ export const footerContent = {
     address: {
       street: 'Abuja, FCT, Nigeria.',
       phone: '(+234) 708-160-1461',
-      email: 'hello@urbantech.com',
+      email: 'hello@gourbantech.com',
     },
   },
   copyright: {

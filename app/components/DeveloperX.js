@@ -102,7 +102,7 @@ const DeveloperX = () => {
                   <span className="w-7 h-7 rounded-full bg-primary flex items-center justify-center">
                     <BiCheck className="text-white text-xl" />
                   </span>
-                  <span>{feature.title}</span>
+                  <span className="font-semibold">{feature.title}</span>
                 </li>
               ))}
             </ul>
