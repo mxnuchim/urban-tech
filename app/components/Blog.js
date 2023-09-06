@@ -119,6 +119,7 @@ before:right-full before:w-screen before:absolute before:-top-5 before:-bottom-5
                 <Link
                   href={blog.permalink}
                   className="relative -mt-10 inline-block overflow-hidden rounded-lg mb-4"
+                  target="_blank"
                 >
                   <Image
                     src={blog.featuredImg}
