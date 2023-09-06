@@ -226,18 +226,19 @@ export const testimonialContent = {
 export const blogContent = {
   heading: {
     subTitle: 'Blog',
-    title: 'Our Latest Articles',
+    title: 'Our Featured Articles',
     description:
       'We are dedicated to staying at the forefront of our industry and keeping our valued community informed about the latest trends, insights, and innovations.',
   },
   recentBlog: [
     {
-      permalink: '#_',
+      permalink:
+        'https://dev.to/mxnuchim/a-day-in-the-life-of-a-lead-software-engineer-4o26',
       featuredImg: blog1,
       title:
-        'A Day in the Life of a Developer: Balancing Work and Tech Lifestyle',
+        'A Day in the Life of a Lead Software Engineer: Balancing Work and Tech Lifestyle',
       excerpt:
-        'Follow a developers daily routine, from coding challenges to staying updated with the latest tech trends, and discover tips for maintaining a healthy work-life balance.',
+        'Follow a senior developers daily routine, from coding challenges to staying updated with the latest tech trends, and discover tips for maintaining a healthy work-life balance.',
       author: {
         img: manuchim,
         name: 'Manuchimso Oliver',
@@ -245,11 +246,12 @@ export const blogContent = {
       },
     },
     {
-      permalink: '#_',
+      permalink:
+        'https://medium.com/@manuchimoliver779/saas-vs-traditional-application-software-the-pros-and-cons-56173feb3283',
       featuredImg: blog3,
-      title: 'SaaS vs. Traditional Software: Pros and Cons for Businesses',
+      title: 'SaaS vs. Traditional Application Software: The Pros and Cons',
       excerpt:
-        'Explore the advantages and disadvantages of Software as a Service (SaaS) compared to traditional software installations, helping businesses make informed decisions.',
+        'Explore the advantages and disadvantages of Software as a Service (SaaS) compared to traditional application software, helping businesses make informed decisions.',
       author: {
         img: manuchim,
         name: 'Manuchimso Oliver',
@@ -257,9 +259,11 @@ export const blogContent = {
       },
     },
     {
-      permalink: '#_',
+      permalink:
+        'https://medium.com/@manuchimoliver779/productivity-hacks-for-developers-how-to-successfully-manage-your-time-948fc9a0e4e8',
       featuredImg: blog4,
-      title: 'Productivity Hacks for Developers',
+      title:
+        'Productivity Hacks for Developers: How to Successfully Manage Your Time',
       excerpt:
         'Check out this list of productivity tools and techniques that can help developers streamline their workflow and boost their efficiency.',
       author: {
@@ -269,11 +273,12 @@ export const blogContent = {
       },
     },
     {
-      permalink: '#_',
-      featuredImg: blog9,
-      title: 'Tech Gadgets and Accessories for the Ultimate Workstation Setup',
+      permalink:
+        'https://medium.com/@manuchimoliver779/best-practices-for-writing-clean-typescript-code-8a4a49e1f123',
+      featuredImg: hero11,
+      title: 'Best Practices For Writing Clean TypeScript Code 👨🏾‍💻',
       excerpt:
-        'Explore the must-have gadgets and accessories to create an ergonomic and efficient workstation. From monitors to ergonomic chairs, optimize your workspace for maximum productivity and comfort.',
+        'Unlock the power of TypeScript with these essential best practices for clean and efficient code. Explore project structuring, strong typing, consistency, functional programming, error handling, testing, documentation, and more.',
       author: {
         img: manuchim,
         name: 'Manuchimso Oliver',
@@ -282,11 +287,12 @@ export const blogContent = {
     },
 
     {
-      permalink: '#_',
+      permalink:
+        'https://medium.com/@manuchimoliver779/blockchain-technology-explained-to-a-web-developer-1eddd2f35391',
       featuredImg: hero7,
-      title: 'Women in Tech: Breaking Barriers and Shaping the Future',
+      title: 'Blockchain Technology Explained to a Web Developer',
       excerpt:
-        'Celebrate the achievements and contributions of women in the tech industry. Highlight inspiring stories of female tech leaders, developers, and innovators who are paving the way for diversity and inclusion.',
+        'This article breaks down complex concepts into digestible insights, covering blockchain fundamentals, use cases, and how it can revolutionize web development. Dive into the blockchain revolution and discover its potential for your web projects! ',
       author: {
         img: manuchim,
         name: 'Manuchimso Oliver',
