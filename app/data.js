@@ -204,8 +204,8 @@ export const testimonialContent = {
   testimonials: [
     {
       img: person1,
-      name: 'Emeka U.',
-      position: 'Cutsomer - Abuja, FCT, Nigeria.',
+      name: 'Demola. A',
+      position: 'Cutsomer - Lagos, Nigeria.',
       testimony: `Working with your software development team across multiple products have been a game-changer for us. Your commitment to clear communication and attention to detail is top notch. Every project we've collaborated on has been completed on time and to a high quality. We appreciate your team's dedication and can't wait to work with you again!`,
     },
     {
