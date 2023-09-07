@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { BiChevronRight, BiSolidHeart } from 'react-icons/bi';
+import { RiCustomerService2Fill } from 'react-icons/ri';
 import { HiLocationMarker, HiPhone, HiOutlineMail } from 'react-icons/hi';
 import { footerContent } from '../data';
 
@@ -25,7 +26,7 @@ const Footer = () => {
             </p>
             <p className="">
               <Link
-                href={'/'}
+                href={footerContent.about.cta.href}
                 className="flex space-x-2 outline-none items-center font-semibold text-primary group"
               >
                 <span>{footerContent.about.cta.label}</span>
@@ -80,6 +81,10 @@ const Footer = () => {
               <li className="flex items-start space-x-3 mb-5">
                 <HiOutlineMail className="text-xl text-primary" />
                 <span>{footerContent.contact.address.email}</span>
+              </li>
+              <li className="flex items-start space-x-3 mb-5">
+                <RiCustomerService2Fill className="text-xl text-primary" />
+                <span>{footerContent.contact.address.email2}</span>
               </li>
             </ul>
           </div>

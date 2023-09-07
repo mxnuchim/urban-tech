@@ -324,13 +324,27 @@ export const footerContent = {
         { href: '#our-work', label: 'Our work' },
         { href: '#dev-x', label: 'Developer-X' },
         { href: '#reviews', label: 'Reviews' },
+        { href: '#articles', label: 'Articles' },
+        { href: '#contact', label: 'Support' },
       ],
     },
     {
-      heading: 'Resources',
+      heading: 'Recent Projects',
       links: [
-        { href: '#articles', label: 'Articles' },
-        { href: '#contact', label: 'Support' },
+        {
+          href: 'https://apps.apple.com/us/app/kiko-the-global-marketplace/id6449978195',
+          label: 'Kiko',
+        },
+        { href: 'https://zootoapp.com/', label: 'Zooto' },
+        {
+          href: 'https://play.google.com/store/apps/details?id=com.scoop.app',
+          label: 'Scoop',
+        },
+        { href: 'https://filparty.com/', label: 'Filparty' },
+        {
+          href: 'https://manuchimoliver.vercel.app/',
+          label: `M's Portfolio`,
+        },
       ],
     },
   ],
@@ -341,10 +355,11 @@ export const footerContent = {
       street: 'Abuja, FCT, Nigeria.',
       phone: '(+234) 708-160-1461',
       email: 'hello@gourbantech.com',
+      email2: 'manuchimoliver779@gmail.com',
     },
   },
   copyright: {
     labelOne: 'Copyright 2023. Built with',
-    labelTwo: 'by M. All rights reserved',
+    labelTwo: '. All rights reserved',
   },
 };
