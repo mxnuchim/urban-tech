@@ -78,12 +78,12 @@ const Footer = () => {
                 <HiPhone className="text-xl text-primary" />
                 <span>{footerContent.contact.address.phone}</span>
               </li>
-              <li className="flex items-start space-x-3 mb-5">
+              {/* <li className="flex items-start space-x-3 mb-5">
                 <HiOutlineMail className="text-xl text-primary" />
                 <span>{footerContent.contact.address.email}</span>
-              </li>
+              </li> */}
               <li className="flex items-start space-x-3 mb-5">
-                <RiCustomerService2Fill className="text-xl text-primary" />
+                <HiOutlineMail className="text-xl text-primary" />
                 <span>{footerContent.contact.address.email2}</span>
               </li>
             </ul>

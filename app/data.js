@@ -1,5 +1,4 @@
 import { animations, images, svgs } from '@/public';
-const {} = images;
 const { webDev } = svgs;
 const { joinUsAnimation } = animations;
 const {
@@ -98,7 +97,7 @@ export const statsContent = {
       'We are your innovation partner. From conceptualization to realization, we breathe life into your ideas, crafting digital solutions that transcend your expectations',
     img: joinUsAnimation,
     cta: {
-      cta_href: '#_',
+      cta_href: '#contact',
       cta_label: 'Learn more',
     },
   },
