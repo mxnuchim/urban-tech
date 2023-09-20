@@ -39,8 +39,12 @@ export const navigationMenu = [
     label: 'Home',
   },
   {
-    href: '#our-work',
-    label: 'Our work',
+    href: '#services',
+    label: 'Services',
+  },
+  {
+    href: '#contact',
+    label: 'Projects',
   },
   {
     href: '#dev-x',
@@ -51,10 +55,6 @@ export const navigationMenu = [
     label: 'Reviews',
   },
   {
-    href: '#articles',
-    label: 'Articles',
-  },
-  {
     href: '#contact',
     label: 'Contact',
   },
@@ -62,9 +62,9 @@ export const navigationMenu = [
 
 export const heroContent = {
   text: {
-    subheading: `Welcome to Urban Tech`,
+    subheading: `Welcome to Urban Tech Solutions`,
     heading: `Building Tomorrow's Solutions Today.`,
-    description: `At Urban Tech, we specialize in weaving together the threads of creativity and technology to craft solutions that meet your business needs. We're not just about code – we're about connecting with your audience through user-friendly designs and intuitive interfaces.`,
+    description: `At Urban Tech, we specialize in weaving together the threads of creativity and technology to craft solutions that meet your business needs. We're not just about writing code and delivering products – we're about connecting you to your audience through user-friendly designs and immersive user interfaces.`,
   },
   //devX3 -> img1
   images: {
@@ -328,7 +328,7 @@ export const footerContent = {
       ],
     },
     {
-      heading: 'Recent Projects',
+      heading: 'Our Recent Projects',
       links: [
         {
           href: 'https://apps.apple.com/us/app/kiko-the-global-marketplace/id6449978195',
@@ -340,6 +340,10 @@ export const footerContent = {
           label: 'Scoop',
         },
         { href: 'https://filparty.com/', label: 'Filparty' },
+        {
+          href: 'https://play.google.com/store/apps/details?id=com.nata.app',
+          label: `Nata`,
+        },
         {
           href: 'https://manuchimoliver.vercel.app/',
           label: `M's Portfolio`,
@@ -353,12 +357,12 @@ export const footerContent = {
     address: {
       street: 'Abuja, FCT, Nigeria.',
       phone: '(+234) 708-160-1461',
-      email: 'hello@gourbantech.com',
-      email2: 'manuchimoliver779@gmail.com',
+      email: 'gourbantech@gmail.com',
+      email2: '',
     },
   },
   copyright: {
-    labelOne: 'Copyright 2023. Built with',
-    labelTwo: '. All rights reserved',
+    labelOne: 'Copyright 2023.',
+    labelTwo: ' All rights reserved',
   },
 };

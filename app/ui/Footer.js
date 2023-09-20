@@ -48,6 +48,7 @@ const Footer = () => {
                       <li className="mb-3" key={link.label}>
                         <Link
                           href={link.href}
+                          target="_blank"
                           className="group flex items-center duration-300 transition-all ease-in-out hover:text-primary"
                         >
                           <span>{link.label}</span>
@@ -78,13 +79,12 @@ const Footer = () => {
                 <HiPhone className="text-xl text-primary" />
                 <span>{footerContent.contact.address.phone}</span>
               </li>
-              {/* <li className="flex items-start space-x-3 mb-5">
-                <HiOutlineMail className="text-xl text-primary" />
-                <span>{footerContent.contact.address.email}</span>
-              </li> */}
+
               <li className="flex items-start space-x-3 mb-5">
                 <HiOutlineMail className="text-xl text-primary" />
-                <span>{footerContent.contact.address.email2}</span>
+                <Link href={`mailto:${footerContent.contact.address.email}`}>
+                  <span>{footerContent.contact.address.email}</span>
+                </Link>
               </li>
             </ul>
           </div>
@@ -92,7 +92,6 @@ const Footer = () => {
         <div className="text-center pt-10 border-t border-gray-200">
           <p className="">
             {footerContent.copyright.labelOne}{' '}
-            <BiSolidHeart className="text-red-600 inline-block" />{' '}
             {footerContent.copyright.labelTwo}
           </p>
         </div>
