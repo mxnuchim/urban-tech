@@ -6,7 +6,7 @@ import { devXContent } from '../data';
 
 const DeveloperX = () => {
   return (
-    <section className="py-32 bg-light overflow-x-hidden">
+    <section className="py-32 bg-light overflow-x-hidden" id="dev-x">
       <div className="container px-4 mx-auto">
         <div className="lg:flex space-x-2 justify-between">
           <div className="lg:w-6/12 relative mb-10 lg:mb-0 z-10 before:-[''] before:absolute before:w-screen before:right-1/2 before:rounded-tr-[200px] before:z-[-1] before:rounded-br-3xl before:py-28 before:-top-20 before:bg-white before:-bottom-20">
@@ -102,12 +102,12 @@ const DeveloperX = () => {
                   <span className="w-7 h-7 rounded-full bg-primary flex items-center justify-center">
                     <BiCheck className="text-white text-xl" />
                   </span>
-                  <span>{feature.title}</span>
+                  <span className="font-semibold">{feature.title}</span>
                 </li>
               ))}
             </ul>
 
-            <div className="flex space-x-3">
+            {/* <div className="flex space-x-3">
               <Link
                 href={devXContent.text.cta.btn1.href}
                 className="py-2.5 px-5 bg-primary text-white rounded-lg duration-300 transition-all ease-in-out hover:bg-gray-900 hover:shadow-lg inline-block relative top-0 hover:-top-1"
@@ -120,7 +120,7 @@ const DeveloperX = () => {
               >
                 {devXContent.text.cta.btn2.label}
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -11,30 +11,8 @@ import Button from '../components/shared/Button';
 
 const Navigation = () => {
   const [navOpen, setNavOpen] = useState(false);
-  const [dimensions, setDimensions] = useState({
-    height: window.innerHeight,
-    width: window.innerWidth,
-  });
 
   const { logo } = images;
-
-  useEffect(() => {
-    // Resize the window when the size changes
-    function handleResize() {
-      setDimensions({
-        height: window.innerHeight,
-        width: window.innerWidth,
-      });
-
-      if (dimensions.width > 768 && navOpen) {
-        setNavOpen(false);
-      }
-      window.addEventListener('resize', handleResize);
-    }
-    return (_) => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
 
   const mobileMenuHandler = () => {
     setNavOpen(!navOpen);
@@ -65,7 +43,7 @@ const Navigation = () => {
 
             {/** CTA */}
             <div className="">
-              <Button href={'/'} btnText="Get started" />
+              <Button href={'/#contact'} btnText="Get started" />
 
               <button className="block lg:hidden" onClick={mobileMenuHandler}>
                 <HiOutlineMenuAlt3 className="text-3xl" />

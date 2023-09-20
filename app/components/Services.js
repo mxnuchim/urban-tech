@@ -5,7 +5,7 @@ import { servicesContent } from '../data';
 
 const Services = () => {
   return (
-    <section className="py-20 bg-light">
+    <section className="py-20 bg-light" id="services">
       <div className="contsiner px-4 mx-auto">
         <div className="max-w-xl mx-auto text-center mb-20">
           {servicesContent.heading.subTitle && (

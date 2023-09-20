@@ -3,12 +3,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { BiChevronRight, BiSolidHeart } from 'react-icons/bi';
+import { RiCustomerService2Fill } from 'react-icons/ri';
 import { HiLocationMarker, HiPhone, HiOutlineMail } from 'react-icons/hi';
 import { footerContent } from '../data';
 
 const Footer = () => {
   return (
-    <footer role="contentinfo" className="py-20 bg-white">
+    <footer role="contentinfo" className="py-20 bg-white" id="contact">
       <div className="container px-4 mx-auto">
         <div className="block lg:flex gap-20 mb-10 pb-10">
           <div className="w-full lg:w-4/12 mb-10 lg:mb-0">
@@ -25,7 +26,7 @@ const Footer = () => {
             </p>
             <p className="">
               <Link
-                href={'/'}
+                href={footerContent.about.cta.href}
                 className="flex space-x-2 outline-none items-center font-semibold text-primary group"
               >
                 <span>{footerContent.about.cta.label}</span>
@@ -47,6 +48,7 @@ const Footer = () => {
                       <li className="mb-3" key={link.label}>
                         <Link
                           href={link.href}
+                          target="_blank"
                           className="group flex items-center duration-300 transition-all ease-in-out hover:text-primary"
                         >
                           <span>{link.label}</span>
@@ -77,9 +79,12 @@ const Footer = () => {
                 <HiPhone className="text-xl text-primary" />
                 <span>{footerContent.contact.address.phone}</span>
               </li>
+
               <li className="flex items-start space-x-3 mb-5">
                 <HiOutlineMail className="text-xl text-primary" />
-                <span>{footerContent.contact.address.email}</span>
+                <Link href={`mailto:${footerContent.contact.address.email}`}>
+                  <span>{footerContent.contact.address.email}</span>
+                </Link>
               </li>
             </ul>
           </div>
@@ -87,7 +92,6 @@ const Footer = () => {
         <div className="text-center pt-10 border-t border-gray-200">
           <p className="">
             {footerContent.copyright.labelOne}{' '}
-            <BiSolidHeart className="text-red-600 inline-block" />{' '}
             {footerContent.copyright.labelTwo}
           </p>
         </div>

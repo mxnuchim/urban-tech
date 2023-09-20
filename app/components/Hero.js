@@ -17,7 +17,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="py-20">
+    <section className="py-20" id="about">
       <div className="container px-4 mx-auto">
         <div className="lg:flex justify-between items-center">
           <div className="lg:w-5/12 mb-10 lg:mb-0">
@@ -57,17 +57,17 @@ const Hero = () => {
               data-aos-delay="300"
             >
               <Link
-                href={'#'}
+                href={'#contact'}
                 className="py-2.5 px-5 bg-primary text-white rounded-lg duration-300 transition-all ease-in-out hover:bg-gray-900 hover:shadow-lg inline-block relative top-0 hover:-top-1"
               >
                 Get Started
               </Link>
-              <Link
+              {/* <Link
                 href={'#'}
                 className="py-2.5 px-5 bg-secondary text-white rounded-lg duration-300 transition-all ease-in-out hover:bg-[#0A71CF] hover:shadow-lg inline-block relative top-0 hover:-top-1"
               >
                 How it works?
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="lg:w-6/12 space-y-2">
