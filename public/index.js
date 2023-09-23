@@ -32,10 +32,18 @@ import solution3 from './images/solution-img-3-min.jpg';
 import logo from './images/logo.png';
 import manuchim from './images/manuchim.jpeg';
 import joinUsAnimation from './animations/joinUsAnimation.json';
+import devX1 from './images/devX1.jpg';
+import devX2 from './images/devX2.jpg';
 import devX3 from './images/devX3.jpg';
 import devX4 from './images/devX4.jpg';
 import devX5 from './images/devX5.jpg';
 import devX6 from './images/devX6.jpg';
+import devX10 from './images/devX10.jpg';
+import devX13 from './images/devX13.jpg';
+import devX14 from './images/devX14.jpg';
+import devX11 from './images/devX11.jpg';
+import devX12 from './images/devX12.jpg';
+
 import blog1 from './images/blog1.jpg';
 import blog2 from './images/blog2.jpg';
 import blog3 from './images/blog3.jpg';
@@ -66,10 +74,17 @@ export const images = {
   consulting,
   uxDesign,
   manuchim,
+  devX1,
+  devX2,
   devX3,
   devX4,
   devX5,
   devX6,
+  devX10,
+  devX13,
+  devX14,
+  devX11,
+  devX12,
   blog1,
   blog2,
   blog3,

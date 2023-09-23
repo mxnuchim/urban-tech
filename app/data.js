@@ -27,10 +27,17 @@ const {
   blog3,
   blog4,
   blog9,
+  devX1,
+  devX2,
   devX3,
   devX4,
   devX5,
   devX6,
+  devX10,
+  devX13,
+  devX14,
+  devX11,
+  devX12,
 } = images;
 
 export const navigationMenu = [
@@ -64,15 +71,15 @@ export const heroContent = {
   text: {
     subheading: `Welcome to Urban Tech Solutions`,
     heading: `Building Tomorrow's Solutions Today.`,
-    description: `At Urban Tech, we specialize in weaving together the threads of creativity and technology to craft solutions that meet your business needs. We're not just about writing code and delivering products – we're about connecting you to your audience through user-friendly designs and immersive user interfaces.`,
+    description: `We're a dynamic community driven by a dual mission - to build innovative solutions that empower businesses, and to foster a vibrant ecosystem of individuals starting their careers in the tech industry. We specialize in crafting cutting-edge solutions tailored to the unique needs of your business. Whether you're here to transform your business or start your tech journey, you can become part of the Dev-X community. Together, we'll bridge the gap between innovation and expertise, creating a brighter, tech-driven future for everyone.`,
   },
-  //devX3 -> img1
+  //devX11 -> img5
   images: {
     img1: devX3,
-    img2: hero8,
+    img2: devX11,
     img3: hero3,
     img4: hero10,
-    img5: hero9,
+    img5: devX13,
   },
 };
 
@@ -154,9 +161,9 @@ export const servicesContent = {
 
 export const devXContent = {
   text: {
-    title: 'The Developer-X Program',
-    subTitle: 'Coming soon',
-    description: `Dive headfirst into the world of tech and emerge job-ready with the Dev-X program - a turbocharged, job focused boot camp designed to equip you with the skills and knowledge to excel in today's fast-paced tech industry without the unnecessary clutter and delays of traditional boot camps. Learn from industry experts and seasoned senior developers and get job-ready in a fraction of the time.`,
+    title: 'The Dev-X Community',
+    subTitle: 'Developer X',
+    description: `Dev-X is our very own ecosystem dedicated to fostering collaboration and continuous learning, between individuals passionate about tech. But that's not all – The Dev-X program is a turbocharged, job-focused bootcamp designed to equip members with the critical skills required to excel in today's dynamic tech industry, without the unnecessary clutter often associated with traditional programs. Our instructors are highly experienced professionals with a track record of remarkable accomplishments. Whether you're seeking a career transition, aiming to enhance your existing skills, or network and collaborate, the Dev-X community is your route to growth and success in the tech world.`,
     features: [
       { title: 'Full Stack Development' },
       { title: 'Mobile Development' },
