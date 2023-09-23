@@ -71,7 +71,7 @@ export const heroContent = {
   text: {
     subheading: `Welcome to Urban Tech Solutions`,
     heading: `Building Tomorrow's Solutions Today.`,
-    description: `We're a dynamic community driven by a dual mission - to build innovative solutions that empower businesses, and to foster a vibrant ecosystem of individuals starting their careers in the tech industry. We specialize in crafting cutting-edge solutions tailored to the unique needs of your business. Whether you're here to transform your business or start your tech journey, you can become part of the Dev-X community. Together, we'll bridge the gap between innovation and expertise, creating a brighter, tech-driven future for everyone.`,
+    description: `We're a dynamic company driven by a dual mission - building innovative solutions that empower businesses, and building a community of individuals from all levels in the tech industry. We specialize in crafting cutting-edge solutions tailored to the unique needs of your business. Whether you're here to transform your business or advance in your tech journey, you can become a part of us. Together, we'll bridge the gap between innovation and expertise, creating a brighter, tech-driven future for everyone.`,
   },
   //devX11 -> img5
   images: {
