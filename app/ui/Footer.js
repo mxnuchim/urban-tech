@@ -5,6 +5,7 @@ import React from 'react';
 import { BiChevronRight, BiSolidHeart } from 'react-icons/bi';
 import { RiCustomerService2Fill } from 'react-icons/ri';
 import { HiLocationMarker, HiPhone, HiOutlineMail } from 'react-icons/hi';
+import { BsTwitter, BsInstagram } from 'react-icons/bs';
 import { footerContent } from '../data';
 
 const Footer = () => {
@@ -87,6 +88,17 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
+            <div className="flex gap-5">
+              <Link href={'https://twitter.com/urbantech_X'} target="_blank">
+                <BsTwitter size={30} />
+              </Link>
+              <Link
+                href={'https://www.instagram.com/urbantech_x/'}
+                target="_blank"
+              >
+                <BsInstagram size={30} />
+              </Link>
+            </div>
           </div>
         </div>
         <div className="text-center pt-10 border-t border-gray-200">
