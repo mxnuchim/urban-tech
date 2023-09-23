@@ -135,7 +135,7 @@ before:right-full before:w-screen before:absolute before:-top-5 before:-bottom-5
                 </h2>
                 <p className="relative mb-6">{blog.excerpt}</p>
 
-                {/* <div className="flex items-center space-x-4">
+                <div className="flex items-center space-x-4">
                   <div className="flex-shrink-0">
                     <Image
                       src={blog.author.img}
@@ -151,7 +151,7 @@ before:right-full before:w-screen before:absolute before:-top-5 before:-bottom-5
                       {blog.author.position}
                     </span>
                   </div>
-                </div> */}
+                </div>
               </div>
             </SwiperSlide>
           ))}

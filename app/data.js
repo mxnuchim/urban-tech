@@ -71,7 +71,7 @@ export const heroContent = {
   text: {
     subheading: `Welcome to Urban Tech Solutions`,
     heading: `Building Tomorrow's Solutions Today.`,
-    description: `We're a dynamic company driven by a dual mission - building innovative solutions that empower businesses, and building a community of individuals from all levels in the tech industry. We specialize in crafting cutting-edge solutions tailored to the unique needs of your business. Whether you're here to transform your business or advance in your tech journey, you can become a part of us. Together, we'll bridge the gap between innovation and expertise, creating a brighter, tech-driven future for everyone.`,
+    description: `We're a dynamic company driven by a dual mission - building innovative solutions that empower businesses, and building a community of individuals from all levels in the tech industry. We specialize in crafting cutting-edge solutions for businesses. So whether you're here to transform your business, network with professionals of different levels, or advance in your tech journey, you can become a part of us. And together, we'll create a brighter, tech-driven future for everyone.`,
   },
   //devX11 -> img5
   images: {
@@ -112,8 +112,8 @@ export const statsContent = {
 
 export const servicesContent = {
   heading: {
-    title: 'Our Services',
-    subTitle: 'What We Offer',
+    title: 'What we do',
+    subTitle: 'Our services',
     description:
       'Explore our range of comprehensive services designed to meet your digital needs.',
   },
@@ -122,39 +122,33 @@ export const servicesContent = {
       icon: webDev,
       title: 'Web Development',
 
-      description:
-        'Our team of seasoned experts transforms your ideas into captivating digital experiences.',
+      description: `Your online presence matters, and we understand that your website is often the first interaction customers have with your brand, and we make sure to deliver visually stunning and highly functional websites that leave a lasting impression`,
     },
     {
       icon: mobilePhone,
       title: 'Mobile App Development',
-      description:
-        'Building dynamic and user-friendly mobile applications that meet modern demands.',
+      description: `Our mobile development team specializes in creating innovative and user-friendly mobile apps for all platforms. Whether it's a consumer-facing app or a business tool, we ensure your mobile presence stands out`,
     },
     {
       icon: uxDesign,
       title: 'UI/UX Design',
-      description:
-        'Immerse your users in an exceptional digital journey with our UI/UX design expertise. ',
+      description: `Immerse your users in an exceptional digital journey that's bound to always that leave a lasting impression. Whether you're launching a new product or looking to revamp your existing platform, partner with us to set your brand apart today`,
     },
     {
       icon: techSkill,
-      title: 'Developer X',
+      title: 'The Dev-X Program',
       description:
-        'The Dev X program is geared towards arming you and and your team with job critical skills and individuals through intense job-focused sessions.',
+        'The Dev X program is a turbocharged bootcamp geared towards arming individuals and teams with job critical skills through intense sessions and workshops with highly experienced professionals.',
+    },
+    {
+      icon: community,
+      title: 'The Dev-X Community',
+      description: `Our vibrant community dedicated to fostering collaboration, networking, and learning among individuals in tech. We're always open to engage with like-minded individuals and collaborate with other communities. So, don't hesitate to reach out – we're an email away.`,
     },
     {
       icon: consulting,
-      title: 'Consultation',
-      description:
-        'Providing expert guidance and advice to steer your digital strategies in the right direction.',
-    },
-
-    {
-      icon: community,
-      title: 'Community Management',
-      description:
-        'Nurturing and growing online communities to foster engagement and collaboration.',
+      title: 'IT Consultation',
+      description: `Discover the full potential of your technology ecosystem. Our team of seasoned experts offers strategic insights to streamline your IT infrastructure, enhance security, and boost operational efficiency`,
     },
   ],
 };
@@ -163,7 +157,7 @@ export const devXContent = {
   text: {
     title: 'The Dev-X Community',
     subTitle: 'Developer X',
-    description: `Dev-X is our very own ecosystem dedicated to fostering collaboration and continuous learning, between individuals passionate about tech. But that's not all – The Dev-X program is a turbocharged, job-focused bootcamp designed to equip members with the critical skills required to excel in today's dynamic tech industry, without the unnecessary clutter often associated with traditional programs. Our instructors are highly experienced professionals with a track record of remarkable accomplishments. Whether you're seeking a career transition, aiming to enhance your existing skills, or network and collaborate, the Dev-X community is your route to growth and success in the tech world.`,
+    description: `Dev-X is our very own ecosystem dedicated to experienced and aspiring tech professionals. But that's not all – The Dev-X program is a turbocharged, job-focused bootcamp designed to equip members with critical tech skills, without the unnecessary clutter. We showcase and promote projects and tasks completed by community members to potential employers, and share job and internship opportunities. So whether you're switching careers, enhancing your skills, or networking, we're your express route to growth and success.`,
     features: [
       { title: 'Full Stack Development' },
       { title: 'Mobile Development' },
@@ -190,7 +184,7 @@ export const devXContent = {
     img3: devX4,
   },
   experience: {
-    years: '25+',
+    years: '15+',
     label: 'years of experience',
   },
 };
@@ -243,12 +237,11 @@ export const blogContent = {
       featuredImg: blog1,
       title:
         'A Day in the Life of a Lead Software Engineer: Balancing Work and Tech Lifestyle',
-      excerpt:
-        'Follow a senior developers daily routine, from coding challenges to staying updated with the latest tech trends, and discover tips for maintaining a healthy work-life balance.',
+      excerpt: `Follow a senior developer's daily routine, from coding challenges to staying updated with the latest tech trends, and discover tips for maintaining a healthy work-life balance.`,
       author: {
         img: manuchim,
-        name: 'Manuchimso Oliver',
-        position: 'CTO, Co-Founder',
+        name: 'Manuchim Oliver',
+        position: 'Founder, CTO.',
       },
     },
     {
@@ -260,8 +253,8 @@ export const blogContent = {
         'Explore the advantages and disadvantages of Software as a Service (SaaS) compared to traditional application software, helping businesses make informed decisions.',
       author: {
         img: manuchim,
-        name: 'Manuchimso Oliver',
-        position: 'Editor, CTO, Co-Founder',
+        name: 'Manuchim Oliver',
+        position: 'Founder, CTO.',
       },
     },
     {
@@ -274,8 +267,8 @@ export const blogContent = {
         'Check out this list of productivity tools and techniques that can help developers streamline their workflow and boost their efficiency.',
       author: {
         img: manuchim,
-        name: 'Manuchimso Oliver',
-        position: 'Editor, CTO, Co-Founder',
+        name: 'Manuchim Oliver',
+        position: 'Founder, CTO.',
       },
     },
     {
@@ -287,8 +280,8 @@ export const blogContent = {
         'Unlock the power of TypeScript with these essential best practices for clean and efficient code. Explore project structuring, strong typing, consistency, functional programming, error handling, testing, documentation, and more.',
       author: {
         img: manuchim,
-        name: 'Manuchimso Oliver',
-        position: 'Editor, CTO, Co-Founder',
+        name: 'Manuchim Oliver',
+        position: 'Founder, CTO.',
       },
     },
 
@@ -301,8 +294,8 @@ export const blogContent = {
         'This article breaks down complex concepts into digestible insights, covering blockchain fundamentals, use cases, and how it can revolutionize web development. Dive into the blockchain revolution and discover its potential for your web projects! ',
       author: {
         img: manuchim,
-        name: 'Manuchimso Oliver',
-        position: 'Editor, CTO, Co-Founder',
+        name: 'Manuchim Oliver',
+        position: 'Founder, CTO.',
       },
     },
   ],
@@ -331,7 +324,6 @@ export const footerContent = {
         { href: '#dev-x', label: 'Developer-X' },
         { href: '#reviews', label: 'Reviews' },
         { href: '#articles', label: 'Articles' },
-        { href: '#contact', label: 'Support' },
       ],
     },
     {
@@ -347,10 +339,10 @@ export const footerContent = {
           label: 'Scoop',
         },
         { href: 'https://filparty.com/', label: 'Filparty' },
-        {
-          href: 'https://play.google.com/store/apps/details?id=com.nata.app',
-          label: `Nata`,
-        },
+        // {
+        //   href: 'https://play.google.com/store/apps/details?id=com.nata.app',
+        //   label: `Nata`,
+        // },
         {
           href: 'https://manuchimoliver.vercel.app/',
           label: `M's Portfolio`,
