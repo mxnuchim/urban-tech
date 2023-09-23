@@ -89,12 +89,17 @@ const Footer = () => {
               </li>
             </ul>
             <div className="flex gap-5">
-              <Link href={'https://twitter.com/urbantech_X'} target="_blank">
+              <Link
+                href={'https://twitter.com/urbantech_X'}
+                target="_blank"
+                className="text-primary hover:text-black"
+              >
                 <BsTwitter size={30} />
               </Link>
               <Link
                 href={'https://www.instagram.com/urbantech_x/'}
                 target="_blank"
+                className="text-primary hover:text-black"
               >
                 <BsInstagram size={30} />
               </Link>
