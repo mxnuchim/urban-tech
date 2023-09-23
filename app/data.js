@@ -86,11 +86,11 @@ export const heroContent = {
 export const statsContent = {
   stats: [
     {
-      number: '99.9%',
+      number: '100%',
       label: 'Project Completion Rate',
     },
     {
-      number: '15+',
+      number: '17+',
       label: 'Solutions Delivered',
     },
     {
